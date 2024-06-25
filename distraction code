@@ -713,7 +713,7 @@ fig.show()
 fig = px.scatter_3d(x=df_example['gyroX'], y=df_example['gyroY'], z=df_example['gyroZ'], opacity=0.5)
 fig.update_layout(title='Gyro Data for specific driver')
 fig.show()
-if ((df_example['accelX']|| y=df_example['accelY']|| z=df_example['accelZ'])>=7.3)
+if ((df_example['accelX']|| y=df_example['accelY']|| z=df_example['accelZ'])>=7.3||<=-7.3)
   print ("acceleration warn")
 
 
